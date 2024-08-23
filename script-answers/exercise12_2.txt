@@ -1,0 +1,17 @@
+Script started on 2024-08-22 12:16:34+03:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="308" LINES="18"]
+[?2004h]0;rax@TABWN: /mnt/c/Users/Raxcu/Documents/Projects/Webstorm/part12-containers-applications[01;32mrax@TABWN[00m:[01;34m/mnt/c/Users/Raxcu/Documents/Projects/Webstorm/part12-containers-applications[00m$ [7mdocker container run -it ubuntu bash[27mdocker container run -it ubuntu bash
+[?2004lUnable to find image 'ubuntu:latest' locally
+latest: Pulling from library/ubuntu
+
+[1A[2K31e907dcc94a: Pulling fs layer [1B[1A[2K31e907dcc94a: Downloading [>                                                  ]  310.5kB/29.71MB[1B[1A[2K31e907dcc94a: Downloading [=========>                                         ]  5.516MB/29.71MB[1B[1A[2K31e907dcc94a: Downloading [===================>                               ]   11.4MB/29.71MB[1B[1A[2K31e907dcc94a: Downloading [============================>                      ]  17.22MB/29.71MB[1B[1A[2K31e907dcc94a: Downloading [======================================>            ]  23.07MB/29.71MB[1B[1A[2K31e907dcc94a: Downloading [=================================================> ]  29.23MB/29.71MB[1B[1A[2K31e907dcc94a: Verifying Checksum [1B[1A[2K31e907dcc94a: Download complete [1B[1A[2K31e907dcc94a: Extracting [>                                                  ]  327.7kB/29.71MB[1B[1A[2K31e907dcc94a: Extracting [===========>                                       ]  6.554MB/29.71MB[1B[1A[2K31e907dcc94a: Extracting [=================>                                 ]  10.16MB/29.71MB[1B[1A[2K31e907dcc94a: Extracting [==================================>                ]  20.64MB/29.71MB[1B[1A[2K31e907dcc94a: Extracting [===========================================>       ]  25.56MB/29.71MB[1B[1A[2K31e907dcc94a: Extracting [===============================================>   ]  28.18MB/29.71MB[1B[1A[2K31e907dcc94a: Extracting [=================================================> ]  29.49MB/29.71MB[1B[1A[2K31e907dcc94a: Extracting [==================================================>]  29.71MB/29.71MB[1B[1A[2K31e907dcc94a: Pull complete [1BDigest: sha256:8a37d68f4f73ebf3d4efafbcf66379bf3728902a8038616808f04e34a9ab63ee
+Status: Downloaded newer image for ubuntu:latest
+[?2004h]0;root@98746eab0e50: /root@98746eab0e50:/# mkdir /usr/src/app
+[?2004l[?2004h]0;root@98746eab0e50: /root@98746eab0e50:/# touch /usr/src/app/index.js
+[?2004l[?2004h]0;root@98746eab0e50: /root@98746eab0e50:/# [Kls /usr/src/app
+[?2004lindex.js
+[?2004h]0;root@98746eab0e50: /root@98746eab0e50:/# exit
+[?2004lexit
+[?2004h]0;rax@TABWN: /mnt/c/Users/Raxcu/Documents/Projects/Webstorm/part12-containers-applications[01;32mrax@TABWN[00m:[01;34m/mnt/c/Users/Raxcu/Documents/Projects/Webstorm/part12-containers-applications[00m$ exit
+[?2004lexit
+
+Script done on 2024-08-22 12:19:54+03:00 [COMMAND_EXIT_CODE="0"]
