@@ -1,10 +1,11 @@
 FROM node:lts
 
-WORKDIR /app
+WORKDIR /usr/src/app
 
-COPY package*.json ./
+COPY . .
 
 RUN npm ci
 
-CMD ["npm", "run", "dev"]
+EXPOSE 3000
 
+CMD ["npm", "run", "dev"]

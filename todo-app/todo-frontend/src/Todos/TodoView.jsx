@@ -14,6 +14,7 @@ const TodoView = () => {
 
   useEffect(() => {
     refreshTodos()
+    console.log(todos)
   }, [])
 
   const createTodo = async (todo) => {
